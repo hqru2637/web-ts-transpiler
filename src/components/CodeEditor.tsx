@@ -13,8 +13,8 @@ export function CodeEditor(props: CodeEditorProps) {
       theme='vs-dark'
       defaultValue=''
       containerStyle={props.style}
-      height='10em'
       onChange={props.onChange}
+      
     />
   )
 }
