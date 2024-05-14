@@ -14,7 +14,6 @@ export function CodeEditor(props: CodeEditorProps) {
       defaultValue=''
       containerStyle={props.style}
       onChange={props.onChange}
-      
     />
   )
 }
